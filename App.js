@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Zoo_1 = require("./Zoo");
+var Dog_1 = require("./Dog");
+var Cat_1 = require("./Cat");
+var dog = new Dog_1.default('Bingo', 2, 'dog');
+var cat = new Cat_1.default('Luna', 1, 'cat');
+dog.makeSound();
+cat.makeSound();
+var TbilisiZoo = new Zoo_1.default;
+TbilisiZoo.addAnimals(dog);
+TbilisiZoo.addAnimals(cat);
+TbilisiZoo.displayAllInfo();
+TbilisiZoo.triggerSound();
+TbilisiZoo.removeAnimals(cat);
+TbilisiZoo.removeAnimals(dog);
+TbilisiZoo.displayAllInfo();
