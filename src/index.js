@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Zoo_1 = require("./Zoo");
-var Dog_1 = require("./Dog");
-var Cat_1 = require("./Cat");
+var Zoo_1 = require("./classes/Zoo");
+var Dog_1 = require("./classes/Dog");
+var Cat_1 = require("./classes/Cat");
 var dog = new Dog_1.default('Bingo', 2, 'dog');
 var cat = new Cat_1.default('Luna', 1, 'cat');
 dog.makeSound();

@@ -1,6 +1,6 @@
-import Zoo from './Zoo';
-import Dog from './Dog';
-import Cat from './Cat';
+import Zoo from './classes/Zoo';
+import Dog from './classes/Dog';
+import Cat from './classes/Cat';
 
 
 const dog = new Dog('Bingo', 2, 'dog')
